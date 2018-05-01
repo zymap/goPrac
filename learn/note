@@ -1,0 +1,3 @@
+sync.once 就做一次 defer 相当于catch finally
+ticker 时间触发器 每隔多久做一个事
+        timeout：可以给自己一个值，超过时间就timeout
