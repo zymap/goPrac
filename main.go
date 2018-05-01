@@ -9,6 +9,7 @@ import (
 	. "./learn/structandmethod"
 	"./learn/gcandfinalize"
 	"./learn/interface"
+	lio "./learn/io"
 )
 
 func myhelloworld()  {
@@ -122,6 +123,8 @@ func maptest()  {
 	collection.Map3()
 	format("mapslice")
 	collection.MapSlice1()
+	format("map4")
+	collection.Map4()
 }
 
 func struct1()  {
@@ -159,10 +162,30 @@ func interfacetest()  {
 	_interface.Reflect1()
 	format("reflect2")
 	_interface.Reflect2()
+	format("act")
+	_interface.Act()
+}
+
+func miotest()  {
+	format("scanner1")
+	lio.Scanner1()
+	format("scanner2")
+	lio.Scanner2()
+}
+
+func filetest()  {
+	format("input file1")
+	lio.InputFile()
+	format("input file2")
+	lio.InputFile2()
+	format("input file3")
+	lio.InputFile3()
+	format("input file4")
+	lio.InputFile4()
 }
 
 func main() {
-	interfacetest()
+	filetest()
 }
 
 func format(str string)  {

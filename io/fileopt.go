@@ -3,6 +3,7 @@ package io
 import (
 	"os"
 	"fmt"
+	"bufio"
 )
 
 var FILE = "/home/zy/myuser/go/goproject/goPrac/file/iotest.txt"
@@ -50,4 +51,22 @@ func readFile()  {
 		}
 		fmt.Print(string(buffer))
 	}
+}
+
+func WriteFile1() {
+	file := "/home/zy/myuser/go/goproject/goPrac/file/learn_io_write"
+	outputFile, err := os.OpenFile(file, os.O_WRONLY | os.O_CREATE, 0666)
+	if err != nil {
+		fmt.Println("open error")
+		return 
+	}
+	defer outputFile.Close()
+	
+	outputWriter := bufio.NewWriter(outputFile)
+	outputWriter.WriteString("hello my first write.")
+	outputWriter.Flush()
+}
+
+func CopyFile()  {
+
 }

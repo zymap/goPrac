@@ -66,6 +66,20 @@ func Map3()  {
 	printmap("deleted map1[2]", map1)
 }
 
+func Map4()  {
+	m := make(map[int]string)
+	m[1] = "map4"
+	fmt.Println("before update : ", m)
+	mapsend(m)
+	fmt.Println("update map : ", m)
+}
+
+func mapsend(m map[int]string)  {
+	fmt.Println("enter mapsend : ", m)
+	defer fmt.Println("exit mapsend : ", m)
+	m[10] = "mapsend"
+}
+
 func MapSlice1()  {
 	mapslice := make([]map[int]int,5)
 
