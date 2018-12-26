@@ -1,23 +1,25 @@
 package main
 
 import (
-	helloworld "./gohelloworld"
+	_ "./gohelloworld"
+	"./io"
 	"./learn"
 	"./learn/collection"
-	"fmt"
-	"./io"
-	. "./learn/structandmethod"
 	"./learn/gcandfinalize"
 	"./learn/interface"
 	lio "./learn/io"
+	. "./learn/structandmethod"
+	"container/ring"
+	"fmt"
 )
 
-func myhelloworld()  {
+func myhelloworld() {
+	Helloworld()
 	helloworld.Helloworld()
 	helloworld.Version()
 }
 
-func mylearn()  {
+func mylearn() {
 	//learn.ValueTypeCopy()
 	//learn.RefTypeCopy()
 	//learn.VarTest()
@@ -25,28 +27,28 @@ func mylearn()  {
 	learn.StringUtil()
 }
 
-func x()  {
+func x() {
 	i := 0
 xxx:
 	fmt.Println(i)
-	i++;
+	i++
 	if i < 20 {
 		goto xxx
 	}
 }
 
-func testFunction()  {
+func testFunction() {
 	a := 10
 	fmt.Println(&a)
 	learn.FunctionX(&a)
 	learn.FunctionY(a)
 }
 
-func OOP()  {
+func OOP() {
 	learn.MainFunc()
 }
 
-func array()  {
+func array() {
 	collection.Array1()
 	fmt.Println("===array11===")
 	collection.Array11()
@@ -58,33 +60,33 @@ func array()  {
 	collection.Array5()
 }
 
-const value  = 100
+const value = 100
 
-func itoatest()  {
+func itoatest() {
 	const (
-		k1 = iota  // 0
-		k2			//iota 1
-		k3			//iota 2
+		k1 = iota // 0
+		k2        //iota 1
+		k3        //iota 2
 		k4 = value
 		k5
 		k6
 		k7
 		k8
 	)
-	const(
-		b1 = iota  //0
-		b2  		//iota 1
+	const (
+		b1 = iota //0
+		b2        //iota 1
 	)
 
-	fmt.Println(k1,k2,k3,k4,k5,k6,k7,k8)
+	fmt.Println(k1, k2, k3, k4, k5, k6, k7, k8)
 }
 
-func iotest()  {
+func iotest() {
 	//io.Shell()
 	io.IoOpt()
 }
 
-func slice()  {
+func slice() {
 	fmt.Println("====slice 1========slice 1====")
 	collection.Slice1()
 	fmt.Println("====slice 2========slice 2====")
@@ -105,7 +107,7 @@ func slice()  {
 	collection.SortSlice()
 }
 
-func reslice()  {
+func reslice() {
 	format("reslice 1")
 	collection.Reslice1()
 	format("reslice 2")
@@ -114,7 +116,7 @@ func reslice()  {
 	collection.CopySlice()
 }
 
-func maptest()  {
+func maptest() {
 	format("map1")
 	collection.Map1()
 	format("map2")
@@ -127,21 +129,21 @@ func maptest()  {
 	collection.Map4()
 }
 
-func struct1()  {
+func struct1() {
 	format("struct1")
 	Struct1()
 	format("method1")
 	Method1()
 }
 
-func other()  {
+func other() {
 	format("magic test")
 	MagicTest()
 	format("gc test")
 	gcandfinalize.GCTest()
 }
 
-func interfacetest()  {
+func interfacetest() {
 	format("type interface")
 	_interface.TypeInterface()
 	format("type interface 1")
@@ -166,14 +168,14 @@ func interfacetest()  {
 	_interface.Act()
 }
 
-func miotest()  {
+func miotest() {
 	format("scanner1")
 	lio.Scanner1()
 	format("scanner2")
 	lio.Scanner2()
 }
 
-func filetest()  {
+func filetest() {
 	format("input file1")
 	lio.InputFile()
 	format("input file2")
@@ -185,10 +187,16 @@ func filetest()  {
 }
 
 func main() {
-	filetest()
+	other()
+
+	r := ring.New(2)
+
 }
 
-func format(str string)  {
+func format(str string) {
 	fmt.Print("====", str, "====")
 	fmt.Print("====", str, "====\n")
 }
+
+// 483045022100ec1aa939322b57beac89e419356721a2e4ec0b96e2b11365cd260042ee43556c02205fc044071c68730ffb14fdbc7850b267a2fad1afd44d2f68efd7fa9c1171388b4141046d4da4a23215995d0a459070b0cbce06db3331bb66f7d94dfa98b137916a6c29d487a3a1f2b9d0acb4ad4a7dd56203f59731697ab4102110115d5e19482ffb24
+// 483045022100ec1aa939322b57beac89e419356721a2e4ec0b96e2b11365cd260042ee43556c02205fc044071c68730ffb14fdbc7850b267a2fad1afd44d2f68efd7fa9c1171388b4141046d4da4a23215995d0a459070b0cbce06db3331bb66f7d94dfa98b137916a6c29d487a3a1f2b9d0acb4ad4a7dd56203f59731697ab4102110115d5e19482ffb24

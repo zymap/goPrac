@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package proto;
+
+service Greeter {
+    rpc SayHello (RequestArgs) returns (ResponseArgs) {}
+}
+
+message RequestArgs {
+    string message = 1 ;
+}
+
+message ResponseArgs {
+    string message = 1;
+}

@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a9a612e6-aee6-49ee-aee6-0a62af5f8bea" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/algorithm/atoi.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/combinations.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/generateparentheses.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/inttoroman.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/longestCommonPrefix.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/panlindrome.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/validparentheses.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asm/testasm.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bitcoin/bitcoin_transaction.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/test/tmp.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/maptest.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mastergo/chapter3/container/heap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mastergo/chapter3/copySlice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mastergo/chapter3/exerciseConstants.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mastergo/chapter3/exercisePointers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mastergo/chapter3/exercse2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mastergo/chapter3/exercseFailMap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mastergo/chapter3/exercseMap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mastergo/chapter3/slice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mastergo/chapter3/sortSlice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mastergo/chapter3/usingMaps.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/bubblesort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/heapsort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/concurrencymap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/concurrent.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/readwritelock.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/testgloable/gloable_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/testinclude/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/timetest.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tool.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/viper/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/viper/readCommandLine.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/collection/collection.go" beforeDir="false" afterPath="$PROJECT_DIR$/learn/collection/collection.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/structandmethod/magic.go" beforeDir="false" afterPath="$PROJECT_DIR$/learn/structandmethod/magic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/goPrac$go_test_testgloable.out" NAME="go test testgloable Coverage Results" MODIFIED="1540259129859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="140" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="821449362">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="32" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="4" />
+          <entry key="project.open.time.15" value="4" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="7" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.6" value="4" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="37" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="2018-09-14-07-34" value="1" />
+          <entry key="2018-09-14-07-35" value="1" />
+          <entry key="2018-09-14-07-36" value="1" />
+          <entry key="2018-09-14-07-37" value="1" />
+          <entry key="2018-09-14-07-38" value="1" />
+          <entry key="2018-09-14-07-39" value="1" />
+          <entry key="201809122310" value="1" />
+          <entry key="201809122311" value="1" />
+          <entry key="201809122312" value="1" />
+          <entry key="201809131714" value="1" />
+          <entry key="201809131715" value="1" />
+          <entry key="go" value="162" />
+          <entry key="log" value="4" />
+          <entry key="s" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Go" value="162" />
+          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="x86 Plan9 Assembly" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="go" value="20945" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Go" value="20945" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.go.postfix.template.usages.trigger">
+        <counts>
+          <entry key=".append" value="6" />
+          <entry key=".len" value="1" />
+          <entry key=".notnil" value="9" />
+          <entry key=".p" value="1" />
+          <entry key=".print" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/runtime/proc.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="209" selection-start-line="209" selection-end-line="209" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/runtime/asm_amd64.s">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="521" selection-start-line="521" selection-end-line="521" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/runtime/panic.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5239">
+              <caret line="680" selection-start-line="680" selection-end-line="680" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/remove.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="14" selection-start-line="14" selection-start-column="2" selection-end-line="17" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/concurrent.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="e#14#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/validparentheses.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+              <folding>
+                <element signature="e#14#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algorithm/mergetwolist.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="55" selection-end-column="1" />
+              <folding>
+                <element signature="e#14#74#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sort/bubblesort.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sort/heapsort.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/generateparentheses.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>lenCap.cgo</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/mastergo/chapter3/exercse1.go" />
+        <option value="$PROJECT_DIR$/mastergo/chapter3/copySlice.go" />
+        <option value="$PROJECT_DIR$/mastergo/chapter3/slice.go" />
+        <option value="$PROJECT_DIR$/mastergo/chapter3/sortSlice.go" />
+        <option value="$PROJECT_DIR$/mastergo/chapter3/exercseMap.go" />
+        <option value="$PROJECT_DIR$/mastergo/chapter3/usingMaps.go" />
+        <option value="$PROJECT_DIR$/mastergo/chapter3/exercseFailMap.go" />
+        <option value="$PROJECT_DIR$/mastergo/chapter3/exerciseConstants.go" />
+        <option value="$PROJECT_DIR$/mastergo/chapter3/exercisePointers.go" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/movedata/CASETEST.go" />
+        <option value="$PROJECT_DIR$/mastergo/chapter3/container/heap.go" />
+        <option value="$PROJECT_DIR$/mastergo/chapter3/container/list.go" />
+        <option value="$PROJECT_DIR$/goBUG/map.go" />
+        <option value="$PROJECT_DIR$/test/tempfile.go" />
+        <option value="$PROJECT_DIR$/io/ioutiltest.go" />
+        <option value="$PROJECT_DIR$/io/test/tmp.go" />
+        <option value="$PROJECT_DIR$/test/testCompare.go" />
+        <option value="$PROJECT_DIR$/test/testgloable/gloable_test.go" />
+        <option value="$PROJECT_DIR$/test/testgloable/gloable.go" />
+        <option value="$PROJECT_DIR$/test/slice.go" />
+        <option value="$PROJECT_DIR$/test/slicetest.go" />
+        <option value="$PROJECT_DIR$/test/tool.go" />
+        <option value="$PROJECT_DIR$/test/testmap.go" />
+        <option value="$PROJECT_DIR$/test/timetest.go" />
+        <option value="$PROJECT_DIR$/test/slice2test.go" />
+        <option value="$PROJECT_DIR$/test/channletest.go" />
+        <option value="$PROJECT_DIR$/io/diff.go" />
+        <option value="$PROJECT_DIR$/test/diff.go" />
+        <option value="$PROJECT_DIR$/viper/readCommandLine.go" />
+        <option value="$PROJECT_DIR$/viper/config.go" />
+        <option value="$PROJECT_DIR$/test/move.go" />
+        <option value="$PROJECT_DIR$/test/readwritelock.go" />
+        <option value="$PROJECT_DIR$/test/concurrencymap.go" />
+        <option value="$PROJECT_DIR$/test/testinclude/someclass/test.go" />
+        <option value="$PROJECT_DIR$/test/testinclude/main.go" />
+        <option value="$PROJECT_DIR$/map/maptest.go" />
+        <option value="$PROJECT_DIR$/asm/testasm.go" />
+        <option value="$PROJECT_DIR$/algorithm/atoi.go" />
+        <option value="$PROJECT_DIR$/algorithm/panlindrome.go" />
+        <option value="$PROJECT_DIR$/sort/bubblesort.go" />
+        <option value="$PROJECT_DIR$/algorithm/inttoroman.go" />
+        <option value="$PROJECT_DIR$/algorithm/longestCommonPrefix.go" />
+        <option value="$PROJECT_DIR$/test/test.go" />
+        <option value="$PROJECT_DIR$/algorithm/combinations.go" />
+        <option value="$PROJECT_DIR$/test/concurrent.go" />
+        <option value="$PROJECT_DIR$/algorithm/validparentheses.go" />
+        <option value="$PROJECT_DIR$/algorithm/remove.go" />
+        <option value="$PROJECT_DIR$/algorithm/mergetwolist.go" />
+        <option value="$PROJECT_DIR$/sort/heapsort.go" />
+        <option value="$PROJECT_DIR$/algorithm/generateparentheses.go" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="2560" />
+    <option name="height" value="1440" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="goPrac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goPrac" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goPrac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goPrac" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goPrac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goPrac" type="462c0819:PsiDirectoryNode" />
+              <item name="magic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goPrac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goPrac" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goPrac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goPrac" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/zhangyong/GoProjects/goPrac/viper/readCommandLine.go" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Build.go build heapsort.go">
+    <configuration name="go build combinations.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goPrac" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/algorithm/combinations.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build concurrent.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goPrac" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/test/concurrent.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build heapsort.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goPrac" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/sort/heapsort.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build mergetwolist.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goPrac" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/algorithm/mergetwolist.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build validparentheses.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goPrac" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/algorithm/validparentheses.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build combinations.go" />
+      <item itemvalue="Go Build.go build concurrent.go" />
+      <item itemvalue="Go Build.go build validparentheses.go" />
+      <item itemvalue="Go Build.go build mergetwolist.go" />
+      <item itemvalue="Go Build.go build heapsort.go" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build heapsort.go" />
+        <item itemvalue="Go Build.go build mergetwolist.go" />
+        <item itemvalue="Go Build.go build validparentheses.go" />
+        <item itemvalue="Go Build.go build concurrent.go" />
+        <item itemvalue="Go Build.go build combinations.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="go_test_testgloable - 2018.10.22 at 20h 29m 20s.xml">
+      <configuration name="go test testgloable" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_testgloable - 2018.10.22 at 20h 30m 58s.xml">
+      <configuration name="go test testgloable" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_testgloable - 2018.10.22 at 23h 25m 21s.xml">
+      <configuration name="go test testgloable" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_testgloable - 2018.10.22 at 23h 25m 49s.xml">
+      <configuration name="go test testgloable" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_testgloable - 2018.10.23 at 09h 43m 26s.xml">
+      <configuration name="go test testgloable" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_testgloable - 2018.10.23 at 09h 45m 42s.xml">
+      <configuration name="go test testgloable" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20694445" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3296433" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23353294" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3724551" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3549091" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.09578697" />
+      <window_info anchor="right" id="PlantUML" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20694445" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3296433" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31976047" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3724551" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3549091" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.09578697" />
+      <window_info anchor="right" id="PlantUML" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/testmap.go</url>
+          <line>55</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/movedata/CASETEST.go</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/movedata/CASETEST.go</url>
+          <line>5</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/algorithm/panlindrome.go</url>
+          <line>14</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/algorithm/inttoroman.go</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/sort/bubblesort.go</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/algorithm/inttoroman.go</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/algorithm/combinations.go</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/algorithm/validparentheses.go</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/algorithm/mergetwolist.go</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/algorithm/mergetwolist.go</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/algorithm/mergetwolist.go</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/learn/keyboardinput.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/oop.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/rand.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/stringlang.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/type.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/Variables.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/logtest.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mastergo/chapter2/practice/unsafe.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mastergo/chapter2/gColl.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mastergo/chapter3/container/heap.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-344" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mastergo/chapter3/container/list.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mastergo/chapter3/copySlice.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mastergo/chapter3/sortSlice.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mastergo/chapter3/usingMaps.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mastergo/chapter3/slice.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mastergo/chapter3/exercseMap.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oldcollection/ArrayTest.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testgloable/gloable.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/channletest.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/diff.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/slice2test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/tool.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/timetest.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/move.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/readwritelock.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/concurrencymap.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testinclude/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/maptest.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/strings/strings.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15158">
+          <caret line="693" column="11" selection-start-line="693" selection-start-column="11" selection-end-line="693" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/github.com/copernet/copernicus/net/addrmgr/addrmanager.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25300">
+          <caret line="1174" selection-start-line="1174" selection-end-line="1174" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/github.com/copernet/copernicus/net/syncmanager/syncmanager.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/github.com/copernet/copernicus/newnet/addrmanager/addrmanager.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7788">
+          <caret line="378" column="32" selection-start-line="378" selection-start-column="32" selection-end-line="378" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testinclude/someclass/test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asm/testasm.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/atoi.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="e#14#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/panlindrome.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/inttoroman.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/longestCommonPrefix.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/combinations.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#14#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/concurrent.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#14#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/runtime/asm_amd64.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="521" selection-start-line="521" selection-end-line="521" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/validparentheses.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/remove.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="14" selection-start-line="14" selection-start-column="2" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/bubblesort.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/runtime/panic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5239">
+          <caret line="680" selection-start-line="680" selection-end-line="680" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/runtime/proc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="209" selection-start-line="209" selection-end-line="209" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/heapsort.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/generateparentheses.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/mergetwolist.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="55" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

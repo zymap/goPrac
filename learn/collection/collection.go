@@ -4,6 +4,7 @@ import (
 	system "fmt"
 	"bytes"
 	"sort"
+	"container/ring"
 )
 
 func Array()  {
@@ -257,4 +258,8 @@ func BufferUse()  {
 	system.Println("buffer : ", buffer)
 	system.Println("buffer1 : ", buffer1)
 	system.Println("buffer2 : ", buffer2)
+}
+
+func ringtest()  {
+	ring.New(10)
 }

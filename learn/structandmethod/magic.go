@@ -25,5 +25,5 @@ func (Voodoo) Magic()  {
 func MagicTest()  {
 	v := new(Voodoo)
 	v.Magic()
-	v.MoreMagic()
+	//v.MoreMagic()
 }
