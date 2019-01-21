@@ -5,11 +5,11 @@ import "fmt"
 type Base struct {
 }
 
-func (Base) Magic()  {
+func (Base) Magic() {
 	fmt.Println("base magic")
 }
 
-func (this Base) MoreMagic()  {
+func (this Base) MoreMagic() {
 	this.Magic()
 	this.Magic()
 }
@@ -18,12 +18,12 @@ type Voodoo struct {
 	Base
 }
 
-func (Voodoo) Magic()  {
+func (Voodoo) Magic() {
 	fmt.Println("voodoo magic")
 }
 
-func MagicTest()  {
+func MagicTest() {
 	v := new(Voodoo)
 	v.Magic()
-	//v.MoreMagic()
+	v.MoreMagic()
 }

@@ -2,21 +2,19 @@ package main
 
 import (
 	_ "./gohelloworld"
-	"./io"
 	"./learn"
 	"./learn/collection"
 	"./learn/gcandfinalize"
 	"./learn/interface"
 	lio "./learn/io"
 	. "./learn/structandmethod"
-	"container/ring"
 	"fmt"
 )
 
 func myhelloworld() {
-	Helloworld()
-	helloworld.Helloworld()
-	helloworld.Version()
+	//Helloworld()
+	//helloworld.Helloworld()
+	//helloworld.Version()
 }
 
 func mylearn() {
@@ -83,7 +81,7 @@ func itoatest() {
 
 func iotest() {
 	//io.Shell()
-	io.IoOpt()
+	//io.IoOpt()
 }
 
 func slice() {
@@ -189,7 +187,7 @@ func filetest() {
 func main() {
 	other()
 
-	r := ring.New(2)
+	//r := ring.New(2)
 
 }
 
